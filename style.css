@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-gap: 3px;
+    background-color: aqua;
+    width: 210px;
+    border-radius: 12px 12px 0px 0px;
+    
+  }
+  
+  .header {
+    
+    text-align: right;
+    border: black 1px solid;
+   border-radius: 12px 12px 0px 0px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: coral;
+  }
+
+
+  .grid-items17 {
+    text-align: right;
+    border: black 1px solid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    text-align: center;
+    background-color: darksalmon;
+
+
+
+
+  }
